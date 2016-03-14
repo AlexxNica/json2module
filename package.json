@@ -20,6 +20,9 @@
   "bin": {
     "json2module": "./bin/json2module"
   },
+  "scripts": {
+    "postpublish": "git push && git push --tags"
+  },
   "dependencies": {
     "rw": "^1.3.0"
   }
